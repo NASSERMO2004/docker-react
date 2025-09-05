@@ -10,7 +10,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
 
         {/* Profile Image */}
-        <img src={profile} className="App-profile" alt="Mohamed Salem" />
+        <img src={profile} className="App-profile" alt="Mohamed Salem new test" />
 
         <h1 className="App-title">Mohamed Salem</h1>
         <p className="App-subtitle">IT Student | Cloud Solution Architect Trainee</p>
