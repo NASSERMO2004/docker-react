@@ -1,15 +1,14 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders Mohamed Salem heading', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Learn from Gamil/i);
-  expect(linkElement).toBeInTheDocument();
+  const headingElement = screen.getByText(/Mohamed Salem/i);
+  expect(headingElement).toBeInTheDocument();
 });
 
-test('renders learn react link', () => {
+test('renders GitHub button', () => {
   render(<App />);
-  const linkElement = screen.getByText(/Learn from Gamil/i);
-  expect(linkElement).toBeInTheDocument();
+  const githubLink = screen.getByText(/GitHub/i);
+  expect(githubLink).toBeInTheDocument();
 });
-
