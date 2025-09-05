@@ -6,14 +6,12 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        {/* Logo at the top */}
         <img src={logo} className="App-logo" alt="logo" />
 
-        {/* Profile Image */}
-        <img src={profile} className="App-profile" alt="Mohamed Salem new test" />
+        <img src={profile} className="App-profile" alt="Mohamed Salem" />
 
         <h1 className="App-title">Mohamed Salem</h1>
-        <p className="App-subtitle">IT Student | Cloud Solution Architect Trainee</p>
+        <p className="App-subtitle">student at cairo university| Cloud Solution Architect Trainee</p>
         <p className="App-desc">
           Passionate about Cloud Computing, DevOps, and building scalable solutions.  
           AWS Cloud Solution Architect trainee at NTI, with experience in Linux Administration, Docker, and modern IT systems.
